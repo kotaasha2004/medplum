@@ -1,0 +1,25 @@
+{
+  "port": 8103,
+  "baseUrl": "https://YOUR-DOMAIN.up.railway.app/",
+  "appBaseUrl": "https://YOUR-DOMAIN.up.railway.app/",
+  "binaryStorage": "file:./binary/",
+  "storageBaseUrl": "https://YOUR-DOMAIN.up.railway.app/binary/",
+  "supportEmail": "admin@example.com",
+  "vmContextBotsEnabled": true,
+  "defaultBotRuntimeVersion": "vmcontext",
+  "allowedOrigins": "*",
+  "introspectionEnabled": true,
+  "database": {
+    "host": "postgres.railway.internal",
+    "port": 5432,
+    "dbname": "railway",
+    "username": "postgres",
+    "password": "YOUR-POSTGRES-PASSWORD"
+  },
+  "redis": {
+    "host": "redis.railway.internal",
+    "port": 6379,
+    "password": "YOUR-REDIS-PASSWORD"
+  },
+  "shutdownTimeoutMilliseconds": 30000
+}
